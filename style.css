@@ -98,7 +98,7 @@ main {
 }
 
 
-/*responsive */
+/* responsive
 @media screen and (max-width:800px){
     .container {
         height: 40vh;
@@ -117,4 +117,4 @@ main {
         height: 8vh;
         font-size: 1.3rem;
     }
-}
+} */
