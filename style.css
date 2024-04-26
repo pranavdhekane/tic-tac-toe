@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'lucida sans', serif, cursive, monospace;
+}
+body {
+    background-color: rgb(58, 126, 174);
+}
+main {
+    text-align: center;
+    margin: 1rem;
+}
+.heading {
+    height:20vh;
+    font-size: 3rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vmin;
+}
+.container{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1vmin;
+}
+.box{
+    height: 30%;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+    font-size: 10vmin;
+    color: black;
+    text-shadow: 1px 1px 0px black;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: #1a237e;
+    color: white;
+    border: 1px solid white;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px white;
+    margin: 1rem;
+}
+
+#reset-btn:active{
+    border-color: black;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* After winning */
+.msg-container{
+    height: 100vh;
+    display: none;
+    /* display:flex; */
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+#msg{
+    width: 100%;
+    text-align: center;
+    font-size: 10vmin;
+    color: antiquewhite;
+    padding: 10vmin;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: #1a237e;
+    color: white;
+    border: 1px solid white;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px white;
+    margin: 1rem;
+}
+
+#new-btn:active{
+    border-color: black;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+/*responsive */
+@media screen and (max-width:800px){
+    .container {
+        height: 40vh;
+    }
+    .heading {
+        height: 10vh;
+        font-size: 2rem ;
+    }
+}
+
+@media screen and (max-width:400px){
+    .container{
+        height: 25vh;
+    }
+    .heading {
+        height: 8vh;
+        font-size: 1.3rem;
+    }
+}
